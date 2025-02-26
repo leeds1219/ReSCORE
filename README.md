@@ -1,5 +1,5 @@
-<div style="display: flex; align-items: center;">
-  <img src="assets/ku-logo.png" alt="korea" height="30" style="margin-right: 50px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
+  <img src="assets/ku-logo.png" alt="korea" height="30">
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
 
@@ -42,7 +42,19 @@ sh script/download/build.sh
 ## Training
 ```
 # Training
-python -m source.run.train --dataset ...
+python -m source.run.train
+--running_name {train}
+--dataset {dataset}
+--generation_model_name {generator_model}
+--generation_max_batch_size {depends_on_gpu}
+--retrieval_count {num_docs_to_retrieve}
+--retrieval_query_type {option_to_append_thoughts}
+--retrieval_query_model_name_or_path {retriever_model}
+--max_num_thought {max_iteration}
+--batch_size {depends_on_gpu}
+--lr {learning_rate}
+--temperature_r {retriever_norm_temperature}
+--temperature_lm {generator_norm_temperature}
 ```
 
 #### Model Weights
@@ -56,7 +68,15 @@ python -m source.run.train --dataset ...
 ## Inference
 ```
 # Inference
-python -m source.run.inference --dataset ...
+python -m source.run.inference
+--running_name {inference}
+--dataset {dataset}
+--generation_model_name {generator_model}
+--generation_max_batch_size {depends_on_gpu}
+--retrieval_count {num_docs_to_retrieve}
+--retrieval_query_type {option_to_append_thoughts, full or last only}
+--retrieval_query_model_name_or_path {retriever_model}
+--max_num_thought {max_iteration}
 ```
 
 ## Acknowledgement
