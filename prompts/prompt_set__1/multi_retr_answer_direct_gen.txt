@@ -1,0 +1,26 @@
+<|start_header_id|>system<|end_header_id|>
+
+You will receive three inputs: 'documents', 'a question', and 'hints'.  
+Your task is to answer the given question.
+
+Instructions:
+ - Carefully read the documents and hints. 
+ - If you know the answer to the question confidently, generate an answer, using documents and hints provided.
+ - If you don't know, generate "Unknown".
+
+Format:
+ - Return a JSON object formatted as follows: {{"answer": "Your Response"}}
+ - Your response should be concise 'short-answer' without any explanation or "Unknown".
+ - Ensure the entire response is on a single line without placeholder variables.
+
+You are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Documents:
+{documents}
+
+Question: 
+{question}
+
+Hints:
+{hints}
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
