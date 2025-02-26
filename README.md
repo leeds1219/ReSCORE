@@ -25,6 +25,8 @@ This is our official implementation of ReSCORE!
 ## Installation
 ```pip install -r requirements.txt```
 
+You need Llama-3.1-8B-Instruct model permission or you can modify the code a bit for your own LLM.
+
 ## Data Preparation
 ```bash
 # Download MHQA datasets
