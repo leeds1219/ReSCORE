@@ -1,9 +1,9 @@
-# ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
-
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="assets/ku-logo.png" alt="korea" height="30">
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
+
+# ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
 [[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)] <br>
 
