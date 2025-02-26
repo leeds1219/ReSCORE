@@ -69,6 +69,7 @@ python -m source.run.train
 ```
 # Inference
 python -m source.run.inference
+--method {base_or_iqatr}
 --running_name {inference}
 --dataset {dataset}
 --generation_model_name {generator_model}
@@ -77,6 +78,7 @@ python -m source.run.inference
 --retrieval_query_type {option_to_append_thoughts, full or last only}
 --retrieval_query_model_name_or_path {retriever_model}
 --max_num_thought {max_iteration}
+--batch_size {depends_on_gpu}
 ```
 
 ## Acknowledgement
