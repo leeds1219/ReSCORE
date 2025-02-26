@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 100px;">
   <img src="assets/ku-logo.png" alt="korea" height="30">
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
