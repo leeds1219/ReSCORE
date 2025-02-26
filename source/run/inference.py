@@ -121,7 +121,7 @@ if __name__ == '__main__':
         "--method",
         type=str,
         required=True,
-        help="rescore or base"
+        help="iqatr or base"
     )    
     parser.add_argument(
         "--running_name",
