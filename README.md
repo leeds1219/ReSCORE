@@ -59,10 +59,11 @@ python -m source.run.inference --dataset ...
 ```
 
 ## Acknowledgement
+This research was supported by
+
 This project includes code from [Contriever](https://github.com/facebookresearch/contriever), [DPR](https://github.com/facebookresearch/DPR), and [IRCoT](https://github.com/StonyBrookNLP/ircot).
 
 ## Citation
-
 ```BibTeX
 
 ```
