@@ -1,6 +1,5 @@
 <div style="display: flex; align-items: center;">
   <img src="assets/ku-logo.png" alt="korea" height="30">
-  <div style="width: 50px;"></div> <!-- 여백 역할 -->
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
 
