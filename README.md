@@ -1,4 +1,4 @@
-# ReSCORE
+# ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
 <p align="center">
   <img src="assets/ku-logo.png" alt="korea" height="30"> &nbsp;&nbsp;&nbsp;
