@@ -104,9 +104,12 @@ class PipelineConfig:
     def __post_init__(self):
         seed_everything(self.seed)
         
-        if self.method == "rescore":
+        if self.method == "iqatr":
             self.min_num_thought = 1
+        elif self.method == "base":
+            self.min_num_thought = 0
         else:
+            print("Not Implemented")
             self.min_num_thought = 0    
             
         if self.wandb_key:
