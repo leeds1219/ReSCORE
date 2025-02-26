@@ -23,16 +23,22 @@ This is our official implementation of ReSCORE!
 - [ ]
 
 ## Installation
+```pip install -r requirements.txt```
 
 ## Data Preparation
+```bash
+# Download MHQA datasets
+sh script/download/multihop_raw_data.sh
+
+# Preprocess and build Retrieval DB
+sh script/download/build.sh
+```
 
 ## Training
+```python -m source.run.train --dataset ...```
 
-### Training script
-
-## Evaluation
-
-### Evaluation script
+## Inference
+```python -m source.run.inference --dataset ...```
 
 ## Acknowledgement
 
