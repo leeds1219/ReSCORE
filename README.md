@@ -19,7 +19,9 @@ For further details and visualization results, please check out our [paper](http
 
 ## :fire:TODO
 - [x] Clean Code
-- [ ] 
+- [ ] Check Typo
+- [ ] Build Project Page
+- [ ] Upload paper to arXiv, Add Citation & Acknowledgement
 - [ ] 
 
 ## Installation
@@ -59,7 +61,7 @@ python -m source.run.inference --dataset ...
 
 ## Acknowledgement
 
-## Citing
+## Citation
 
 ```BibTeX
 
