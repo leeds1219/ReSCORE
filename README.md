@@ -5,7 +5,6 @@
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
 
-
 This is our official implementation of ReSCORE! 
 
 [[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)] <br>
