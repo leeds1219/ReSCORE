@@ -21,8 +21,7 @@ For further details and visualization results, please check out our [paper](http
 - [x] Clean Code
 - [ ] Check Typo
 - [ ] Build Project Page
-- [ ] Upload paper to arXiv, Add Citation & Acknowledgement
-- [ ] 
+- [ ] Upload Paper to arXiv, Add Citation & Acknowledgement
 
 ## Installation
 ```
