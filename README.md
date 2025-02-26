@@ -1,8 +1,7 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-  <img src="assets/ku-logo.png" alt="korea" height="30">
+<div style="display: flex; align-items: center;">
+  <img src="assets/ku-logo.png" alt="korea" height="30" style="margin-right: 50px;">
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
-
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
 [[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)] <br>
