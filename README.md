@@ -45,9 +45,10 @@ sh script/download/build.sh
 python -m source.run.train --dataset ...
 ```
 
-#### Trained Model Weights
+#### Model Weights
 | Model Weights | Link |
 |--------------|------|
+| Contriever-MSMARCO | [🔗 Click here](https://huggingface.co/facebook/contriever-msmarco) |
 | IQATR-Musique | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-musique) |
 | IQATR-HotpotQA | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-hotpotqa) |
 | IQATR-2WikiMultiHopQA | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-2wikimhqa) |
