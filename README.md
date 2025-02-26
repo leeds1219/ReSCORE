@@ -23,7 +23,9 @@ This is our official implementation of ReSCORE!
 - [ ]
 
 ## Installation
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 You need permission to access the [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) model, or you can modify the [script](/source/module/generate/llama.py) to use your own LLM.
 
@@ -37,7 +39,10 @@ sh script/download/build.sh
 ```
 
 ## Training
-```python -m source.run.train --dataset ...```
+```
+# Training
+python -m source.run.train --dataset ...
+```
 
 ### Model Weights
 | Model Weights | Link |
@@ -47,7 +52,10 @@ sh script/download/build.sh
 | IQATR-2WikiMultiHopQA | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-2wikimhqa) |
 
 ## Inference
-```python -m source.run.inference --dataset ...```
+```
+# Inference
+python -m source.run.inference --dataset ...
+```
 
 ## Acknowledgement
 
