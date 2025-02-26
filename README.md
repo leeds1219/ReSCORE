@@ -1,9 +1,10 @@
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
-<p align="center">
-  <img src="assets/ku-logo.png" alt="korea" height="30"> &nbsp;&nbsp;&nbsp;
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="assets/ku-logo.png" alt="korea" height="30">
   <img src="assets/miil.png" alt="miil" height="30">
-</p>
+</div>
+
 
 This is our official implementation of ReSCORE! 
 
