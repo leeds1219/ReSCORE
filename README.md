@@ -21,7 +21,7 @@ For further details, please check out our [Paper]() and our [Project]() page.
 - [x] Clean Code
 - [ ] Check Typo
 - [ ] Build Project Page
-- [ ] Upload Paper to arXiv, add Citation & Acknowledgement
+- [ ] Upload Revised Paper to arXiv, add Citation & Acknowledgement
 
 ## Installation
 ```
