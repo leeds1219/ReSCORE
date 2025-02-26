@@ -18,12 +18,9 @@ Multi-hop question answering (MHQA) requires reasoning across multiple documents
 For further details and visualization results, please check out our [paper](https://leeds1219.github.io/) and our [project](https://leeds1219.github.io/) page.
 
 ## :fire:TODO
-- [x] 
+- [x] Clean Code
 - [ ] 
 - [ ] 
-- [ ] 
-- [ ] 
-- [ ]
 
 ## Installation
 ```
