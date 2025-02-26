@@ -5,10 +5,10 @@
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
 
-This is our official implementation of ReSCORE! 
-
 [[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)] <br>
 
 by [Dosung Lee](https://leeds1219.github.io/)\*, [Wonjun Oh](https://github.com/owj0421)\*, [Boyoung Kim](https://github.com/bykimby), [Minyoung Kim](https://github.com/EuroMinyoung186), [Joonsuk Park](http://www.mathcs.richmond.edu/~jpark/), [Paul Hongsuck Seo](https://miil.korea.ac.kr/)
 
 ![Figure](assets/figure.png)
+
+This is our official implementation of ReSCORE! 
