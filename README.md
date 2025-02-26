@@ -15,7 +15,7 @@ This is our official implementation of ReSCORE!
 ![Figure](assets/figure.png)
 Multi-hop question answering (MHQA) requires reasoning across multiple documents, making dense retriever training challenging due to query variability. We propose ReSCORE, a method that trains dense retrievers without labeled data by leveraging LLMs to assess document relevance and consistency with answers.
 
-For further details and visualization results, please check out our [Paper](https://leeds1219.github.io/) and our [Project](https://leeds1219.github.io/) page.
+For further details, please check out our [Paper](https://leeds1219.github.io/) and our [Project](https://leeds1219.github.io/) page.
 
 ## :fire:TODO
 - [x] Clean Code
