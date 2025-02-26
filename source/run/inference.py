@@ -305,7 +305,7 @@ if __name__ == '__main__':
         max_total_tokens=opt.generation_max_total_tokens,
         max_new_tokens=opt.generation_max_new_tokens,
         min_new_tokens=opt.generation_min_new_tokens,
-        use_vllm=True, # we used vllm but vllm is very slow on greedy decoding
+        use_vllm=True,
         # use_vllm=False,
         )
     )
