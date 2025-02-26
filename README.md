@@ -5,7 +5,7 @@
   <img src="assets/miil.png" alt="miil" height="30">
 </div>
 
-[[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)]  [[IQATR-Musique](https://huggingface.co/Lee1219/iqatr-musique)]  [[IQATR-HotpotQA](https://huggingface.co/Lee1219/iqatr-hotpotqa)]  [[IQATR-2WikiMultiHopQA](https://huggingface.co/Lee1219/iqatr-2wikimhqa)] <br>
+[[arXiv](https://leeds1219.github.io/)] [[Project](https://leeds1219.github.io/)] <br>
 
 by [Dosung Lee](https://leeds1219.github.io/)\*, [Wonjun Oh](https://github.com/owj0421)\*, [Boyoung Kim](bykimby.github.io), [Minyoung Kim](https://github.com/EuroMinyoung186), [Joonsuk Park](http://www.mathcs.richmond.edu/~jpark/)†, [Paul Hongsuck Seo](https://miil.korea.ac.kr/)†
 
@@ -36,6 +36,12 @@ sh script/download/build.sh
 
 ## Training
 ```python -m source.run.train --dataset ...```
+
+| Model Weights | Link |
+|--------------|------|
+| IQATR-Musique | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-musique) |
+| IQATR-HotpotQA | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-hotpotqa) |
+| IQATR-2WikiMultiHopQA | [🔗 Click here](https://huggingface.co/Lee1219/iqatr-2wikimhqa) |
 
 ## Inference
 ```python -m source.run.inference --dataset ...```
