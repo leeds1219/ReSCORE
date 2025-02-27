@@ -1,7 +1,7 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-  <img src="assets/ku-logo.png" alt="korea" height="30">
+  <img src="assets/ku-logo.png" alt="korea" height="40">
   <a href="https://miil.korea.ac.kr/" target="_blank">
-    <img src="assets/miil.png" alt="miil" height="30">
+    <img src="assets/miil.png" alt="miil" height="40">
   </a>
 </div>
 
