@@ -47,16 +47,6 @@ sh script/download/build.sh
 python -m source.run.train
 --running_name {train}
 --dataset {dataset}
---generation_model_name {generator_model}
---generation_max_batch_size {depends_on_gpu}
---retrieval_count {num_docs_to_retrieve}
---retrieval_query_type {option_to_append_thoughts}
---retrieval_query_model_name_or_path {retriever_model}
---max_num_thought {max_iteration}
---batch_size {depends_on_gpu}
---lr {learning_rate}
---temperature_r {retriever_norm_temperature}
---temperature_lm {generator_norm_temperature}
 ```
 
 #### Model Weights
@@ -74,13 +64,6 @@ python -m source.run.inference
 --method {base_or_iqatr}
 --running_name {inference}
 --dataset {dataset}
---generation_model_name {generator_model}
---generation_max_batch_size {depends_on_gpu}
---retrieval_count {num_docs_to_retrieve}
---retrieval_query_type {option_to_append_thoughts, full or last only}
---retrieval_query_model_name_or_path {retriever_model}
---max_num_thought {max_iteration}
---batch_size {depends_on_gpu}
 ```
 
 ## Acknowledgement
