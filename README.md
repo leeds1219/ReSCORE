@@ -1,15 +1,10 @@
-# LCIRC: A Recurrent Compression Approach for Efficient Long-form Context and Query Dependent Modeling in LLMs
+# ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
 This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
 
-If you find LCIRC useful for your work please cite:
+If you find ReSCORE useful for your work please cite:
 ```
-@article{an2025lcirc,
-  title={LCIRC: A Recurrent Compression Approach for Efficient Long-form Context and Query Dependent Modeling in LLMs},
-  author={An, Sumin and Sung, Junyoung and Park, Wonpyo and Park, Chanjun and Seo, Paul Hongsuck},
-  journal={arXiv preprint arXiv:2502.06139},
-  year={2025}
-}
+
 ```
 
 # Website License
