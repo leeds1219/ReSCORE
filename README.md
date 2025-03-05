@@ -2,6 +2,9 @@
   <img src="assets/ku-logo.png" alt="korea" height="50">
   <a href="https://miil.korea.ac.kr/" target="_blank">
     <img src="assets/miil.png" alt="miil" height="50">
+  <img src="assets/naver_ai.png" alt="miil" height="50">
+  <img src="assets/naver_cloud.png" alt="miil" height="50">
+  <img src="assets/richmond.png" alt="miil" height="50">
   </a>
 </div>
 
