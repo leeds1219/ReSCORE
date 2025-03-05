@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-  <img src="assets/ku-logo.png" alt="Korea University Logo" height="50">
+  <img src="assets/ku-logo.png" alt="Korea University Logo" height="60">
   <img src="assets/miil.png" alt="MIIL Logo" height="50">
   <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="80" style="object-fit: contain;">
   <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="40" style="object-fit: contain;">
