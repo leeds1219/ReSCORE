@@ -3,9 +3,9 @@
   <a href="https://miil.korea.ac.kr/" target="_blank">
     <img src="assets/miil.png" alt="miil" height="50">
   </a>
-  <img src="assets/naver_ai.png" alt="miil" height="50">
-  <img src="assets/naver_cloud.png" alt="miil" height="50">
-  <img src="assets/richmond.png" alt="miil" height="50">
+  <img src="assets/naver_ai.png" alt="naver_ai" height="50">
+  <img src="assets/naver_cloud.png" alt="naver_cloud" height="50">
+  <img src="assets/richmond.png" alt="richmond" height="50">
 </div>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
