@@ -5,7 +5,7 @@
 <!--   </a> -->
 <!--   <img src="assets/naver_ai.png" alt="Naver AI Logo" height="50">
   <img src="assets/naver_cloud.png" alt="Naver Cloud Logo" height="50">-->
-  <img src="assets/richmond.png" alt="Richmond Logo" height="35">
+  <img src="assets/richmond.png" alt="Richmond Logo" height="45">
 </div>
 
 
