@@ -190,14 +190,8 @@
         <img src="./static/images/lcirc.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>The overall process of the proposed Long-form Context Injection with Recurrent Compression (LCIRC).</b>
-            LCIRC comprises two components: Recurrent Context Compression (left) and Compressed Context Injection (right).
-            In the $i$-th step of Recurrent Context Compression, the previously compressed features $\mathbf{h}^{(i-1)}$ and
-            the segment embeddings $\mathbf{s}_{i}$ are fed into the Perceiver module as query and input features, respectively.
-            The compressed features $\mathbf{h}^{(i)}$ are then generated and reinjected as query features for the subsequent
-            recurrence step. The initial query features $\mathbf{h}^{(0)}$ are learnable parameters. In Compressed Context Injection,
-            the concatenated compressed features $\mathbf{h}$ serve as input to the Gated Cross Attention layer.
-            Layers indicated with a fire symbol represent trained layers, while layers marked with a snow symbol denote frozen layers.
+            <b>T</b>
+            T
           </p>
         </div>
       </div>
@@ -209,15 +203,8 @@
         <img src="./static/images/ssbptt.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>Comparisons of the proposed Selective State BPTT with vanilla and truncated BPTT.</b>
-            Green boxes represent timesteps where gradients are computed in BPTT whereas the light green ones indicate the timesteps without gradient computation. 
-            Finally, dotted red lines illustrate the gradient flows.
-            (a) Vanilla BPTT computes the full gradients through the entire timesteps in recurrence but is computationally infeasible with a large $N$.
-            The gradients for $\mathbf{h}^{(i)}$ receives upstream gradients both through the recurrent connection and through the direct connection from $\mathbf{h}$. 
-            (b) Truncated BPTT backprobagates gradients to the last $T$ timesteps only significantly reducing computational costs.
-            However, it does not transfer gradient flows to timesteps further than $T$ (marked with light green color) and fails to learn long-term QD modeling.
-            (c) Our proposed Selective State BPTT selects several random timesteps and transfer gradient flows directly through the direct connection from $\mathbf{h}$,
-            which enables efficient learning of long-term QD modeling capabilities.
+            <b>T</b>
+            T
           </p>
         </div>
       </div>
@@ -229,20 +216,15 @@
         <img src="./static/images/result1.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>Per-task performance on InfiniteBench and LongBench.</b>
-            The following abbreviations are used: <b>NQA</b> denotes NarrativeQA, <b>MFQA</b> represents MultiFieldQA-en,
-            <b>HQA</b> refers to HotpotQA, <b>2WQA</b> to 2WikiMQA, and <b>MSQ</b> to MuSiQue. <b>Avg</b> indicates the average score across all subtasks within respective benchmarks.
-            <b>FW-LQA</b> indicates whether the model is fine-tuned on FineWeb-LQA.
-            Our QD-LCIRC consistently outperforms competing methods, achieving the highest average score by incorporating query dependent modeling, as indicated in the <b>QD</b> column.
+            <b>T</b>
+            T
           </p>
         </div>
         <img src="./static/images/result2.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>Per-task performance on L-Eval.</b>
-            The following abbreviations are used: <b>CS</b> denotes Coursera, <b>QALIT</b> refers to QuALITY, <b>SF</b> represents SFiction, <b>LFQA</b> refers to LongFQA, 
-            and <b>NQA</b> to NarrativeQA. <b>Avg</b> indicates the mean performance score across all subtasks within the respective benchmark. <b>FW-LQA</b> indicates whether 
-            the model has been fine-tuned on FineWeb-LQA, while <b>QD</b> denotes whether query dependent modeling.
+            <b>T</b>
+            T
           </p>
         </div>
       </div>
