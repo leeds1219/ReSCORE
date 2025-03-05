@@ -1,9 +1,8 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
   <img src="assets/ku-logo.png" alt="korea" height="50">
-  <a href="https://miil.korea.ac.kr/" target="_blank">
+  <a href="https://miil.korea.ac.kr/" target="_blank" style="text-decoration: none;">
     <img src="assets/miil.png" alt="miil" height="50">
   </a>
-  
   <img src="assets/naver_ai.png" alt="naver_ai" height="50">
   <img src="assets/naver_cloud.png" alt="naver_cloud" height="50">
   <img src="assets/richmond.png" alt="richmond" height="50">
