@@ -1,5 +1,0 @@
-\
-{{
-    "question": "{question}",
-    "answer": "{answer}"
-}}
