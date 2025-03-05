@@ -3,9 +3,9 @@
 <!--   <a href="https://miil.korea.ac.kr/" target="_blank"> -->
     <img src="assets/miil.png" alt="MIIL Logo" height="50">
 <!--   </a> --> 
-  <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="60">
+  <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="70">
   <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="30">
-  <img src="assets/richmond.png" alt="Richmond Logo" height="40">
+  <img src="assets/richmond.png" alt="Richmond Logo" height="35">
 </div>
 
 
