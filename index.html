@@ -190,8 +190,12 @@
         <img src="./static/images/rescore.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>lorem-ipsum</b>
-            lorem-ipsum
+            <b>Overview of ReSCORE</b>
+            At each iteration i within a iterative RAG process, the retriever receives gradients from the KL-Divergence loss of the retrieval distribution 
+            P (i) R against the pseudo-GT distribution Q(i) LM, 
+            which is derived from the LLM probabilities of question and answer given each document d(i) j with normalization. 
+            The number of iterations is dynamically determined by the LLM and 
+            the process ends if the LLM predicts an answer which is not “unknown”. The red dashed lines represents gradient flows for the retriever.
           </p>
         </div>
       </div>
@@ -203,15 +207,19 @@
         <img src="./static/images/result1.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>lorem-ipsum</b>
-            lorem-ipsum
+            <b>Comparisons to State-of-the-Art Iterative RAG Frameworks on three MHQA benchmarks</b>
+            EM and F1 scores are measured on each dataset. † Scores are sourced from (Wang et al., 2024). 
+            ‡ Scores are reproduced using the official codes. 
+            ‡‡ Scores are sourced from the original paper (Jeong et al., 2024).
           </p>
         </div>
         <img src="./static/images/result2.png" class="center"/>
         <div class="content has-text-justified">
           <p>
-            <b>lorem-ipsum</b>
-            lorem-ipsum
+            <b>Comparison of GT and Pseudo-GT Labels on All Relevant Document Retrieval</b>
+            The y-axis shows the proportion of questions for which all relevant documents were found, 
+            which are all needed to correctly answer a given complex question. 
+            Pseudo-GT labels lead to improved performance as the number of iterations increases.
           </p>
         </div>
       </div>
@@ -224,7 +232,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>lorem-ipsum
-}</code></pre>
+</code></pre>
   </div>
 </section>
 
