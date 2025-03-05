@@ -145,14 +145,6 @@
                   <span>Code</span>
                   </a>
               </span>
-<!--               <span class="link-block">
-                <a href="https://huggingface.co/datasets/ssumin/fineweb-lqa"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" 
-                         alt="Hugging Face" style="width: 20px; height: 20px;">
-                  </span>
-                  <span>Dataset</span> -->
                 </a>
               </span>
             </div>
@@ -171,22 +163,16 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            While large language models (LLMs) excel in generating coherent and contextually rich outputs,
-            their capacity to efficiently handle long-form contexts is limited by fixed-length position embeddings.
-            Additionally, the computational cost of processing long sequences increases quadratically,
-            making it challenging to extend context length.
-          </p>
-          <p>
-            To address these challenges, we propose Long-form Context Injection with Recurrent Compression (LCIRC),
-            a method that enables the efficient processing long-form sequences beyond the model's length limit
-            through recurrent compression without retraining the entire model.
-          </p>
-          <p>
-            We further introduce query dependent context modeling, which selectively compresses query-relevant
-            information, ensuring that the model retains the most pertinent content. Our empirical results
-            demonstrate that Query Dependent LCIRC (QD-LCIRC) significantly improves LLM's ability to manage
-            extended contexts, making it well-suited for tasks that require both comprehensive context
-            understanding and query relevance.
+            Multi-hop question answering (MHQA) involves reasoning across multiple documents to answer complex questions. 
+            Dense retrievers typically outperform sparse methods like BM25 by leveraging semantic embeddings; 
+            however, they require labeled query-document pairs for fine-tuning. 
+            This poses a significant challenge in MHQA due to the high variability of queries---(reformulated) questions---throughout the reasoning steps. 
+            To overcome this limitation, we introduce Retriever Supervision with Consistency and Relevance (ReSCORE), 
+            a novel method for training dense retrievers for MHQA without labeled documents. 
+            ReSCORE leverages large language models to capture each document's relevance to the question and 
+            consistency with the correct answer and use them to train a retriever within an iterative question-answering framework. 
+            Experiments on three MHQA benchmarks demonstrate the effectiveness of ReSCORE, 
+            with significant improvements in retrieval, and in turn, the state-of-the-art MHQA performance.
           </p>
         </div>
       </div>
