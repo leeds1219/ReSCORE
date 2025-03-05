@@ -8,7 +8,7 @@
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
-[[arXiv](https://arxiv.org/abs/)] [[Project](https://leeds1219.github.io/ReSCORE-Project-Page/)] <br>
+[[arXiv](https://arxiv.org/abs/)] [[Project](https://leeds1219.github.io/ReSCORE/)] <br>
 
 by [Dosung Lee](https://leeds1219.github.io/)\*, [Wonjun Oh](https://github.com/owj0421)\*, [Boyoung Kim](bykimby.github.io), [Minyoung Kim](https://github.com/EuroMinyoung186), [Joonsuk Park](http://www.mathcs.richmond.edu/~jpark/)†, [Paul Hongsuck Seo](https://miil.korea.ac.kr/)†
 
@@ -18,7 +18,7 @@ This is our official implementation of ReSCORE: Label-free Iterative Retriever T
 ![Figure](assets/figure.png)
 Multi-hop question answering (MHQA) requires reasoning across multiple documents, making dense retriever training challenging due to query variability. We propose ReSCORE, a method that trains dense retrievers without labeled data by leveraging LLMs to assess document relevance and consistency with answers.
 
-For further details, please check out our [Paper](https://arxiv.org/abs/) and our [Project](https://leeds1219.github.io/ReSCORE-Project-Page/) page.
+For further details, please check out our [Paper](https://arxiv.org/abs/) and our [Project](https://leeds1219.github.io/ReSCORE/) page.
 
 ## :fire:TODO
 - [x] Clean Code
