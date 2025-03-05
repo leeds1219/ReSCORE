@@ -191,11 +191,12 @@
         <div class="content has-text-justified">
           <p>
             <b>Overview of ReSCORE</b>
-            At each iteration i within a iterative RAG process, the retriever receives gradients from the KL-Divergence loss of the retrieval distribution 
-            P (i) R against the pseudo-GT distribution Q(i) LM, 
-            which is derived from the LLM probabilities of question and answer given each document d(i) j with normalization. 
+            At each iteration i within a iterative RAG process, the retriever receives gradients from 
+            the KL-Divergence loss of the retrieval distribution against the pseudo-GT distribution, 
+            which is derived from the LLM probabilities of question and answer given each document with normalization. 
             The number of iterations is dynamically determined by the LLM and 
-            the process ends if the LLM predicts an answer which is not “unknown”. The red dashed lines represents gradient flows for the retriever.
+            the process ends if the LLM predicts an answer which is not “unknown”. 
+            The red dashed lines represents gradient flows for the retriever.
           </p>
         </div>
       </div>
