@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="description"
         content="A Recurrent Compression Approach for Efficient Long-form Context and Query Dependent Modeling in LLMs">
-  <meta name="keywords" content="LCIRC, QD-LCIRC, long-form context">
+  <meta name="keywords" content="ReSCORE, label-free, RAG">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LCIRC: A Recurrent Compression Approach for Efficient Long-form Context and Query Dependent Modeling in LLMs</title>
+  <title>ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -74,23 +74,27 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">LCIRC: A Recurrent Compression Approach for Efficient Long-form Context and Query Dependent Modeling in LLMs</h1>
+          <h1 class="title is-1 publication-title">ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision</h1>
           <div class="is-size-3 publication-authors">
-            <img src="./static/images/acl-logo.png" alt="NAACL Logo" style="height: 40px; vertical-align: middle;">
+            <img src="./static/images/acl-logo.png" alt="ACL Logo" style="height: 40px; vertical-align: middle;">
             <b>NAACL 2025</b>
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Sumin An<sup>1</sup>,</span>
-            <span class="author-block">Junyoung Sung<sup>1</sup>,</span>
-            <span class="author-block">Wonpyo Park<sup>2</sup>,</span>
+            <span class="author-block">Dosung Lee<sup>1,&*</sup>,</span>
+            <span class="author-block">Wonjun Oh<sup>1,&*</sup>,</span>
+            <span class="author-block">Boyoung Kim<sup>1</sup>,</span>
+            <span class="author-block">Minyoung Kim<sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://parkchanjun.github.io/">Chanjun Park</a><sup>1,&dagger;</sup>,</span>
+              <a href="http://www.mathcs.richmond.edu/~jpark/">Joonsuk Park</a><sup>2,3,4,&dagger;</sup>,</span>
             <span class="author-block">
               <a href="https://phseo.github.io/">Paul Hongsuck Seo</a><sup>1,&dagger;
           </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Korea University,</span>
-            <span class="author-block"><sup>2</sup>Google</span>
+            <span class="author-block"><sup>2</sup>Naver AI</span>
+            <span class="author-block"><sup>2</sup>Naver Cloud</span>
+            <span class="author-block"><sup>2</sup>University of Richmond</span>
+            <span class="eql-cntrb"><small><br><sup>&*;</sup>Equal contribution</small></span>
             <span class="eql-cntrb"><small><br><sup>&dagger;</sup>Co-corresponding Authors</small></span>
           </div>
           <div style="display: flex; justify-content: center; align-items: center;">
@@ -100,14 +104,22 @@
             <a href="https://miil.korea.ac.kr/" target="_blank">
               <img src="./static/images/miil.png" alt="miil" style="height: 54px; margin-right: 50px;">
             </a>
-            <img src="./static/images/Google_2015_logo.svg.webp" alt="google" style="height: 50px;">
+            <a href="" target="_blank">
+              <img src="./static/images/naver_ai_lab.png" alt="miil" style="height: 54px; margin-right: 50px;">
+            </a>
+            <a href="" target="_blank">
+              <img src="./static/images/naver_cloud_lab.png" alt="miil" style="height: 54px; margin-right: 50px;">
+            </a>
+            <a href=" target="_blank">
+              <img src="./static/images/richmond.png" alt="miil" style="height: 54px; margin-right: 50px;">
+            </a>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2502.06139"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -125,7 +137,7 @@
                 </a>
               </span> -->
               <span class="link-block">
-                <a href="https://github.com/ssuminan/LCIRC"
+                <a href="https://github.com/leeds1219/ReSCORE"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -133,14 +145,14 @@
                   <span>Code</span>
                   </a>
               </span>
-              <span class="link-block">
+<!--               <span class="link-block">
                 <a href="https://huggingface.co/datasets/ssumin/fineweb-lqa"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" 
                          alt="Hugging Face" style="width: 20px; height: 20px;">
                   </span>
-                  <span>Dataset</span>
+                  <span>Dataset</span> -->
                 </a>
               </span>
             </div>
