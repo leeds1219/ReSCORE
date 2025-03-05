@@ -2,8 +2,8 @@
   <img src="assets/ku-logo.png" alt="Korea University Logo" height="45">
   <img src="assets/miil.png" alt="MIIL Logo" height="45">
   <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="50" style="object-fit: contain;">
-  <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="35" style="object-fit: contain;">
-  <img src="assets/richmond.png" alt="Richmond Logo" height="38" style="object-fit: contain;">
+  <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="30" style="object-fit: contain;">
+  <img src="assets/richmond.png" alt="Richmond Logo" height="35" style="object-fit: contain;">
 </div>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
