@@ -6,30 +6,6 @@
   <img src="assets/richmond.png" alt="Richmond Logo" height="35" style="object-fit: contain;">
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-  <!-- 각 이미지가 감싸는 div로 중앙을 맞추기 -->
-  <div style="display: flex; align-items: center;">
-    <img src="assets/ku-logo.png" alt="Korea University Logo" height="50">
-  </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="assets/miil.png" alt="MIIL Logo" height="50">
-  </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="70">
-  </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="30">
-  </div>
-  
-  <div style="display: flex; align-items: center;">
-    <img src="assets/richmond.png" alt="Richmond Logo" height="35">
-  </div>
-</div>
-
-
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
 [[arXiv](https://arxiv.org/abs/)] [[Project](https://leeds1219.github.io/ReSCORE-Project-Page/)] <br>
