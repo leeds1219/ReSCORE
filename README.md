@@ -53,8 +53,7 @@ python -m source.run.train
 ```
 
 <img src="assets/loss.png" width="50%" />
-
-We picked up the checkpoints at the lowest validation loss.
+We selected the checkpoints corresponding to the lowest validation loss.
 
 #### Model Weights
 | Model Weights | Link |
