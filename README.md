@@ -52,7 +52,9 @@ python -m source.run.train
 --dataset {dataset}
 ```
 
-![Training Loss](assets/loss.png)
+<img src="assets/loss.png" width="50%" />
+
+We picked up the checkpoints at the lowest validation loss.
 
 #### Model Weights
 | Model Weights | Link |
