@@ -52,6 +52,8 @@ python -m source.run.train
 --dataset {dataset}
 ```
 
+![Training Loss](assets/loss.png)
+
 #### Model Weights
 | Model Weights | Link |
 |--------------|------|
