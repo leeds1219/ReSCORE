@@ -52,8 +52,8 @@ python -m source.run.train
 --dataset {dataset}
 ```
 
-<img src="assets/loss.png" width="50%" />
-We selected the checkpoints corresponding to the lowest validation loss within a single epoch.
+<!--<img src="assets/loss.png" width="50%" />
+We selected the checkpoints corresponding to the lowest validation loss within a single epoch.-->
 
 #### Model Weights
 | Model Weights | Link |
