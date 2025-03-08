@@ -1,20 +1,34 @@
+<br><br>
+
 <p align="center">
-  <img src="assets/logos/korea_university.png" alt="Korea University" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="40">
+  <img src="assets/logos/korea_university.png" alt="Korea University" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="36">
 </p>
 
-# ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
+<br>
 
-[[arXiv](https://arxiv.org/abs/)] [[Project](https://leeds1219.github.io/ReSCORE/)] <br>
+# <p align="center">ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision</p>
 
-by [Dosung Lee](https://leeds1219.github.io/)\*, [Wonjun Oh](https://github.com/owj0421)\*, [Boyoung Kim](bykimby.github.io), [Minyoung Kim](https://github.com/EuroMinyoung186), [Joonsuk Park](http://www.mathcs.richmond.edu/~jpark/)†, [Paul Hongsuck Seo](https://miil.korea.ac.kr/)†
+<p align="center">
+  <a href="https://arxiv.org/abs/">arXiv</a> | <a href="https://leeds1219.github.io/ReSCORE/">Project</a>
+</p>
+
+<p align="center">
+  by <a href="https://leeds1219.github.io/">Dosung Lee</a>*,
+  <a href="https://github.com/owj0421">Wonjun Oh</a>*,
+  <a href="bykimby.github.io">Boyoung Kim</a>,
+  <a href="https://github.com/EuroMinyoung186">Minyoung Kim</a>,
+  <a href="http://www.mathcs.richmond.edu/~jpark/">Joonsuk Park</a>†,
+  <a href="https://miil.korea.ac.kr/">Paul Hongsuck Seo</a>†
+</p>
+
+## Introduction
 
 This is our official implementation of ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision! 
 
-## Introduction
 ![Figure](assets/figure.png)
 Multi-hop question answering (MHQA) requires reasoning across multiple documents, making dense retriever training challenging due to query variability. We propose ReSCORE, a method that trains dense retrievers without labeled data by leveraging LLMs to assess document relevance and consistency with answers.
 
