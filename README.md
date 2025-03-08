@@ -1,9 +1,9 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 50px;">
-  <img src="assets/ku-logo.png" alt="Korea University Logo" height="45">
-  <img src="assets/miil.png" alt="MIIL Logo" height="45">
-  <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="50" style="object-fit: contain;">
-  <img src="assets/naver_cloud_lab.png" alt="Naver Cloud Logo" height="25" style="object-fit: contain;">
-  <img src="assets/richmond.png" alt="Richmond Logo" height="35" style="object-fit: contain;">
+<div align="center" style="">
+  <img src="assets/ku-logo.png" alt="Korea University Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
+  <img src="assets/miil.png" alt="MIIL Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
+  <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
+  <img src="assets/02 NAVER Cloud_CI_Stack_Green.png" alt="Naver Cloud Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
+  <img src="assets/richmond.png" alt="Richmond Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
 </div>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
