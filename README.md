@@ -1,4 +1,4 @@
-<div align="center">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0;">
   <img src="assets/logos/korea_university.png" alt="Korea University" height="48">
   <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="48">
   <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="48">
