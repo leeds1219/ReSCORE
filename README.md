@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/korea_university.svg" alt="Korea University" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
-  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/miil.svg" alt="MIIL" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
-  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/naver_ai_lab.svg" alt="Naver AI Lab" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
-  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/naver_cloud.svg" alt="Naver Cloud" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
-  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/richmond_university.svg" alt="Richmond University" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="assets/logos/korea_university.png" alt="Korea University" height="48">
+  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="48">
+  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="48">
+  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="48">
+  <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="48">
 </div>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
