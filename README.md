@@ -1,9 +1,9 @@
-<div align="center" style="">
-  <img src="assets/ku-logo.png" alt="Korea University Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
-  <img src="assets/miil.png" alt="MIIL Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
-  <img src="assets/naver_ai_lab.png" alt="Naver AI Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
-  <img src="assets/02 NAVER Cloud_CI_Stack_Green.png" alt="Naver Cloud Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
-  <img src="assets/richmond.png" alt="Richmond Logo" height="48" style="margin: 0 8px; padding: 16px; background-color: #fff; border: 1px solid #000; border-radius: 5px;">
+<div align="center">
+  <img src="assets/korea_university.svg" alt="Korea University Logo">
+  <img src="assets/miil.svg" alt="MIIL Logo">
+  <img src="assets/naver_ai_lab.svg" alt="Naver AI Logo">
+  <img src="assets/naver_cloud.svg" alt="Naver Cloud Logo">
+  <img src="assets/richmond_university.svg" alt="Richmond Logo">
 </div>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision

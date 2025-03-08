@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
+    <!-- 배경 박스 -->
+    <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
+    
+    <!-- 이미지 삽입 -->
+    <image href="imgs/02 NAVER Cloud_CI_Stack_Green.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
+</svg>
