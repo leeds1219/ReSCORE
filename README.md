@@ -1,27 +1,10 @@
 <div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
-  <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
-  <image href="assets/logos/korea_university.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
-    <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
-    <image href="assets/logos/miil.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
-    <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
-    <image href="assets/logos/naver_ai_lab.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
-    <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
-    <image href="assets/logos/02 NAVER Cloud_CI_Stack_Green.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" viewBox="0 0 96 64">
-    <rect width="100%" height="100%" rx="8" fill="white" stroke="black" stroke-width="0"/>
-    <image href="assets/logos/richmond_university.png" width="64" height="64" x="50%" y="50%" transform="translate(-32, -32)"/>
-</svg>
+  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/korea_university.svg" alt="Korea University" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/miil.svg" alt="MIIL" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/naver_ai_lab.svg" alt="Naver AI Lab" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/naver_cloud.svg" alt="Naver Cloud" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
+  <img src="https://raw.githubusercontent.com/ReSCORE/main/assets/logos/richmond_university.svg" alt="Richmond University" height="64" style="margin: 8px; border-radius: 8px; border: 1px solid #ddd;">
 </div>
-
-
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
