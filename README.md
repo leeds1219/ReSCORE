@@ -1,10 +1,10 @@
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0;">
-  <img src="assets/logos/korea_university.png" alt="Korea University" height="48">
-  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="48">
-  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="48">
-  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="48">
-  <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="48">
-</div>
+<p align="center">
+  <img src="assets/logos/korea_university.png" alt="Korea University" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="40">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="40">
+</p>
 
 # ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision
 
