@@ -1,10 +1,10 @@
 <br><br>
 
 <p align="center">
-  <img src="assets/logos/korea_university.png" alt="Korea University" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/korea_university.png" alt="Korea University" height="36">&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/MIIL_full_logo.svg" alt="MIIL" height="36">&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_ai_lab.png" alt="Naver AI Lab" height="36">&nbsp;&nbsp;&nbsp;
+  <img src="assets/logos/naver_cloud.png" alt="Naver Cloud" height="36">&nbsp;&nbsp;&nbsp;
   <img src="assets/logos/richmond_university.svg" alt="Richmond University" height="36">
 </p>
 
