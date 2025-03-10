@@ -203,8 +203,6 @@
             In order to identify which documents are relevant to the input question when labels are unavailable, 
             we measure the distribution \(Q_\text{LM}^{(i)}(d_j^{(i)} \mid q^{(i)})\), which represents the likelihood of 
             retrieving a document \(d_j^{(i)}\) given a query \(q^{(i)}\) at iteration \(i\).
-          </p>
-          <p>
             To achieve this, we leverage an LLM inspired by <a href="https://arxiv.org/abs/2208.03299" target="_blank">Izacard et al. (2023)</a>, 
             which captures the intuition that \(Q_\text{LM}^{(i)}(d_j^{(i)} \mid q^{(i)})\) for a document \(d_j^{(i)}\) is proportional to the probability 
             that the LLM generates both the question \(q\) and the corresponding answer \(a\) given \(d_j^{(i)}\).
