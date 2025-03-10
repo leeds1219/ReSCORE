@@ -221,11 +221,9 @@
             This is because the language model might assign high scores based on superficial word alignments, even when the document is irrelevant. 
             For example, a document titled "Paris" might score higher than more relevant documents for a question about Acura Legend’s history, simply because it contains the correct year, "1981", 
             which confuses the model despite the document's irrelevance.
-          </p>
-          <p>
             On the other hand, \( P_{\text{LM}}^{(i)}(a, q \mid d_j^{(i)}) \) incorporates the term \( P_{\text{LM}}^{(i)}(q \mid d_j^{(i)}) \), which measures a document’s relevance to the query. 
             This helps avoid issues like the one described above, ensuring that documents with better contextual relevance are preferred. 
-            Furthermore, relevance alone does not guarantee that a document contains sufficient information to answer the question, as it may still lack consistency with the correct answer.
+<!--             Furthermore, relevance alone does not guarantee that a document contains sufficient information to answer the question, as it may still lack consistency with the correct answer. -->
           </p>
         </div>
       </div>
