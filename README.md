@@ -37,7 +37,7 @@ For further details, please check out our [Paper](https://arxiv.org/abs/) and ou
 ## :fire:TODO
 - [x] Clean Code
 - [ ] Check Typo
-- [ ] Build Project Page
+- [x] Build Project Page
 - [ ] Upload Revised Paper to arXiv, add Citation & Acknowledgement
 
 ## Installation
