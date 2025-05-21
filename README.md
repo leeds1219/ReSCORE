@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 You need permission to access the [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) model, or you can modify the [Script](/source/module/generate/llama.py) to use your own LLM.
 
-We conducted all experiments using Python 3.10.12 on an NVIDIA A100 HBM2 40GB PCIe GPU, and the environments are listed in [packages](./my_packages.txt), so please refer to it if any issues arise.
+We conducted all experiments using Python 3.10.12 on an NVIDIA A100 HBM2 40GB PCIe GPU, and the environments are listed in [Packages](./my_packages.txt), so please refer to it if any issues arise.
 
 ## Data Preparation
 ```bash
