@@ -89,13 +89,23 @@ python -m source.run.inference
 
 ## Acknowledgement
 This project includes code from [Contriever](https://github.com/facebookresearch/contriever), [DPR](https://github.com/facebookresearch/DPR), and [IRCoT](https://github.com/StonyBrookNLP/ircot).
-This research was supported by IITP grants  
-(IITP-2025-RS-2020-II201819, IITP-2025-RS-2024-00436857,  
-IITP-2025-RS-2024-00398115, IITP-2025-RS-2025-02263754,  
-IITP-2025-RS-0000-00000000),  
-the NRF grant (NRF-2021R1A6A1A03045425),  
-and the KOCCA grant (RS-2024-00345025),  
-funded by the Korea government (MSIT, MOE, and MSCT).
+
+This research was supported by the following grants:
+
+- **IITP (Institute of Information & Communications Technology Planning & Evaluation)**  
+  - IITP-2025-RS-2020-II201819  
+  - IITP-2025-RS-2024-00436857  
+  - IITP-2025-RS-2024-00398115  
+  - IITP-2025-RS-2025-02263754  
+  - IITP-2025-RS-0000-00000000
+
+- **NRF (National Research Foundation of Korea)**  
+  - NRF-2021R1A6A1A03045425
+
+- **KOCCA (Korea Creative Content Agency)**  
+  - RS-2024-00345025
+
+Funded by the Korea government (**MSIT**, **MOE**, and **MSCT**).
 
 ## Citation
 ```BibTeX
