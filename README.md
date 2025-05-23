@@ -97,7 +97,7 @@ This research was supported by the following grants:
   - IITP-2025-RS-2024-00436857  
   - IITP-2025-RS-2024-00398115  
   - IITP-2025-RS-2025-02263754  
-  - IITP-2025-RS-0000-00000000 (TODO)
+  - IITP-2025-RS-2025-02304828
 
 - **NRF (National Research Foundation of Korea)**  
   - NRF-2021R1A6A1A03045425
