@@ -109,15 +109,6 @@ Funded by the Korea government (**MSIT**, **MOE**, and **MSCT**).
 
 ## Citation
 ```BibTeX
-@inproceedings{lee2025rescore,
-  title     = {{ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision}},
-  author    = {Lee, Dosung and Oh, Wonjun and Kim, Boyoung and Kim, Minyoung and Park, Joonsuk and Seo, Paul Hongsuck},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2025},
-}
-```
-or
-```BibTeX
 @misc{lee2025rescorelabelfreeiterativeretriever,
       title={ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision}, 
       author={Dosung Lee and Wonjun Oh and Boyoung Kim and Minyoung Kim and Joonsuk Park and Paul Hongsuck Seo},
