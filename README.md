@@ -32,14 +32,12 @@ This is our official implementation of ReSCORE: Label-free Iterative Retriever T
 ![Figure](assets/figure.png)
 Multi-hop question answering (MHQA) requires reasoning across multiple documents, making dense retriever training challenging due to query variability. We propose ReSCORE, a method that trains dense retrievers without labeled data by leveraging LLMs to assess document relevance and consistency with answers.
 
-For further details, please check out our [Paper](https://arxiv.org/abs/) and our [Project](https://leeds1219.github.io/ReSCORE/) page.
+For further details, please check out our [Paper](https://arxiv.org/abs/2505.21250) and our [Project](https://leeds1219.github.io/ReSCORE/) page.
 
 ## :fire:TODO
 - [x] Clean Code
-- [ ] Batch, efficient pipeline refactoring
 - [ ] Check Typo
 - [x] Build Project Page
-- [ ] Upload Revised Paper to arXiv, add Citation & Acknowledgement
 
 ## Installation
 ```
