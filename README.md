@@ -13,7 +13,7 @@
 # <p align="center">ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision</p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/">arXiv</a> | <a href="https://leeds1219.github.io/ReSCORE/">Project</a>
+  <a href="https://arxiv.org/abs/2505.21250">arXiv</a> | <a href="https://leeds1219.github.io/ReSCORE/">Project</a>
 </p>
 
 <p align="center">
