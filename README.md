@@ -19,7 +19,7 @@
 <p align="center">
   by <a href="https://leeds1219.github.io/">Dosung Lee</a>*,
   <a href="https://github.com/owj0421">Wonjun Oh</a>*,
-  <a href="bykimby.github.io">Boyoung Kim</a>,
+  <a href="https://bykimby.github.io/">Boyoung Kim</a>,
   <a href="https://github.com/EuroMinyoung186">Minyoung Kim</a>,
   <a href="http://www.mathcs.richmond.edu/~jpark/">Joonsuk Park</a>†,
   <a href="https://miil.korea.ac.kr/">Paul Hongsuck Seo</a>†
