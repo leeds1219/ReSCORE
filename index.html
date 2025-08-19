@@ -262,15 +262,29 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{lee2025rescorelabelfreeiterativeretriever,
-          title={ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision}, 
-          author={Dosung Lee and Wonjun Oh and Boyoung Kim and Minyoung Kim and Joonsuk Park and Paul Hongsuck Seo},
-          year={2025},
-          eprint={2505.21250},
-          archivePrefix={arXiv},
-          primaryClass={cs.CL},
-          url={https://arxiv.org/abs/2505.21250}, 
-    }
+    <pre><code>@inproceedings{lee-etal-2025-rescore,
+    title = "{R}e{SCORE}: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision",
+    author = "Lee, Dosung  and
+      Oh, Wonjun  and
+      Kim, Boyoung  and
+      Kim, Minyoung  and
+      Park, Joonsuk  and
+      Seo, Paul Hongsuck",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.16/",
+    doi = "10.18653/v1/2025.acl-long.16",
+    pages = "341--359",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Multi-hop question answering (MHQA) involves reasoning across multiple documents to answer complex questions. Dense retrievers typically outperform sparse methods like BM25 by leveraging semantic embeddings in many tasks; however, they require labeled query-document pairs for fine-tuning, which poses a significant challenge in MHQA due to the complexity of the reasoning steps. To overcome this limitation, we introduce Retriever Supervision with Consistency and Relevance (ReSCORE), a novel method for training dense retrievers for MHQA without the need for labeled documents. ReSCORE leverages large language models to measure document-question relevance with answer consistency and utilizes this information to train a retriever within an iterative question-answering framework. Evaluated on three MHQA benchmarks, our extensive experiments demonstrate the effectiveness of ReSCORE, with significant improvements in retrieval performance that consequently lead to state-of-the-art Exact Match and F1 scores for MHQA."
+}
 </code></pre>
   </div>
 </section>
