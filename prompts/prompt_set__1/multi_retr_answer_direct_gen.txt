@@ -1,11 +1,11 @@
 <|start_header_id|>system<|end_header_id|>
 
-You will receive three inputs: 'documents', 'a question', and 'hints'.  
+You will receive three inputs: 'documents', 'a question', and 'thoughts'.  
 Your task is to answer the given question.
 
 Instructions:
- - Carefully read the documents and hints. 
- - If you know the answer to the question confidently, generate an answer, using documents and hints provided.
+ - Carefully read the documents and thoughts. 
+ - If you know the answer to the question confidently, generate an answer, using documents and thoughts provided.
  - If you don't know, generate "Unknown".
 
 Format:
@@ -21,6 +21,6 @@ Documents:
 Question: 
 {question}
 
-Hints:
-{hints}
+Thoughts:
+{thoughts}
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>

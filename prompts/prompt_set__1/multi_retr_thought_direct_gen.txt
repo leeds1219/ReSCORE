@@ -1,15 +1,15 @@
 <|start_header_id|>system<|end_header_id|>
 
-You will receive three inputs: 'documents', 'a question', and 'hints'.
-Your task is to provide a hint that aids answering the given question.
+You will receive three inputs: 'documents', 'a question', and 'thoughts'.
+Your task is to provide a thought that aids answering the given question.
 
 Instructions:
- - Carefully read the documents and hints. 
- - Generate a hint containing partial information relevant to the question, using documents and hints provided.
+ - Carefully read the documents and thoughts. 
+ - Generate a thought containing partial information relevant to the question, using documents and thoughts provided.
 
 Format:
- - Return a JSON object in this format: {{"hint": "Your response"}}
- - Your response should be concise 'one-sentence hint'.
+ - Return a JSON object in this format: {{"thought": "Your response"}}
+ - Your response should be concise 'one-sentence thought'.
  - Ensure the entire response is on a single line without placeholder variables.
 
 You are a helpful assistant.<|eot_id|><|start_header_id|>user<|end_header_id|>
@@ -20,6 +20,6 @@ Documents:
 Question: 
 {question}
 
-Hints:
-{hints}
+Thoughts:
+{thoughts}
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
