@@ -47,6 +47,7 @@ class LlamaGeneratorConfig(BaseGeneratorConfig):
     # vocab_size: Optional[int] = 128256 # TODO: llama vocab_size? 128256 by default
     use_vllm: Optional[bool] = True
     eos_text: Optional[str] = None
+    gpu : Optional[int] = None
     
 
 class LlamaGenerator(BaseGenerator):
@@ -56,13 +57,17 @@ class LlamaGenerator(BaseGenerator):
         cfg: LlamaGeneratorConfig = LlamaGeneratorConfig()
     ):
         super().__init__(cfg)
-        
+
+        if self.cfg.gpu:
+            self.device = torch.device(f'cuda:{self.cfg.gpu}' if torch.cuda.is_available() else 'cpu')
+
         if self.cfg.use_vllm: 
             self.model = LLM( 
                 model=self.cfg.model_name, 
                 gpu_memory_utilization=self.cfg.gpu_memory_utilization, 
                 max_model_len=self.cfg.max_total_tokens, 
                 tensor_parallel_size=torch.cuda.device_count(),
+                device=self.device,
                 # enable_prefix_caching=True
             )
             self.tokenizer = AutoTokenizer.from_pretrained(
@@ -70,7 +75,8 @@ class LlamaGenerator(BaseGenerator):
             )
 
         else:
-            self.hf_device_map = "auto"
+            # self.hf_device_map = "auto"
+            self.hf_device_map = { "": self.device }
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.cfg.model_name,
                 device_map=self.hf_device_map
