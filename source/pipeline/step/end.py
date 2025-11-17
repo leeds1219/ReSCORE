@@ -79,9 +79,9 @@ class EndStep:
             question_id, question, thoughts, documents = parse_path(path)
             
             # temp
-            question_id, questions_so_far, documents_so_far = parse_path_rewrite(path)
+            # question_id, questions_so_far, documents_so_far = parse_path_rewrite(path)
             
-            # didn't fix slow, due to for loops
+            # need to fix, this is slow, due to for loops
             is_end = False
             for state in path:
                 if not type(state).__name__ == 'AnswerState':
@@ -107,13 +107,13 @@ class EndStep:
                 )
 
             # temp
-            elif len(questions_so_far) >= self.cfg.max_num_thought:
-                all_next_state.append(
-                    EndState(
-                        parent_state_id=path[-1].state_id,
-                        prediction=' '.join(questions_so_far) # ''
-                    )
-                )
+            # elif len(questions_so_far) >= self.cfg.max_num_thought:
+            #     all_next_state.append(
+            #         EndState(
+            #             parent_state_id=path[-1].state_id,
+            #             prediction=' '.join(questions_so_far) # ''
+            #         )
+            #     )
 
             else:
                 all_next_state.append(
