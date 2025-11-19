@@ -115,7 +115,10 @@ def run_pipeline(user_input):
     # Answer
     next_states = controller.pipeline[1](paths)
     logs.append(f"1-hop Answer: {next_states[0].answer}")
-
+    
+    if next_states[0].answer != "Unknown":
+        return "\n\n".join(logs)
+    
     controller.update(next_states)
     paths = controller.next()
 
