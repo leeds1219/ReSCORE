@@ -200,6 +200,12 @@ def demo_ui():
         In which county is Southern Maryland Electric Cooperative headquartered?
 
         What is another notable work made by the author of Miss Sara Sampson?
+
+        What is the seat of the county where Van Hook Township is located?
+
+        The Unwinding author volunteered for which organisation?
+
+        ...
         """
         
         output_box = gr.Textbox(
