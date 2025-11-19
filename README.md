@@ -35,6 +35,7 @@ Multi-hop question answering (MHQA) requires reasoning across multiple documents
 For further details, please check out our [Paper](https://arxiv.org/abs/2505.21250) and our [Project](https://leeds1219.github.io/ReSCORE/) page.
 
 ## Demo
+Move the app.py from demo folder to ReSCORE dir.
 ```
 python app.py
 ```
