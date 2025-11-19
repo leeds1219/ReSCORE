@@ -118,6 +118,7 @@ def run_pipeline(user_input):
 
     # TODO: We found that the constraint of at least 2-hops benefits.
     if next_states[0].answer != "Unknown":
+        logs.append("1-hop answer obtained, proceeding with an additional hop for verification.")
         next_states[0].answer = "Unknown"
         # return "\n\n".join(logs)
     
