@@ -115,9 +115,11 @@ def run_pipeline(user_input):
     # Answer
     next_states = controller.pipeline[1](paths)
     logs.append(f"1-hop Answer: {next_states[0].answer}")
-    
+
+    # TODO: We found that the constraint of at least 2-hops benefits.
     if next_states[0].answer != "Unknown":
-        return "\n\n".join(logs)
+        next_states[0].answer = "Unknown"
+        # return "\n\n".join(logs)
     
     controller.update(next_states)
     paths = controller.next()
@@ -185,7 +187,7 @@ def demo_ui():
 
         question_box = gr.Textbox(
             label="Question",
-            value="Which missionary helped spread the religion widely practiced in region having the second largest rain-forest in the world?",
+            value="Where was the author of Hannibal and Scipio educated at?",
             lines=2,
         )
 
