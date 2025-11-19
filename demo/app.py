@@ -192,6 +192,16 @@ def demo_ui():
             lines=2,
         )
 
+        """
+        Examples)
+
+        Which company owns the manufacturer of Learjet 60?
+
+        In which county is Southern Maryland Electric Cooperative headquartered?
+
+        What is another notable work made by the author of Miss Sara Sampson?
+        """
+        
         output_box = gr.Textbox(
             label="Logs",
             lines=40,
