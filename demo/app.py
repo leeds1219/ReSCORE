@@ -107,7 +107,7 @@ def run_pipeline(user_input):
     # Retrieve
     next_states = controller.pipeline[0](paths)
     titles = [doc.metadata['title'] for doc in next_states[0].documents[:8]]
-    logs.append("1-hop Retrieve:" + "".join(titles))
+    logs.append("1-hop Retrieve:" + "\n".join(titles))
 
     controller.update(next_states)
     paths = controller.next()
@@ -143,7 +143,7 @@ def run_pipeline(user_input):
         next_states = controller.pipeline[0](paths)
         # TODO: we use a buffer of 32 to remove redundant documents, this is not implemented in this demo
         titles = [doc.metadata['title'] for doc in next_states[0].documents[:8]]
-        logs.append(f"{hop}-hop Retrieve:" + "".join(titles))
+        logs.append(f"{hop}-hop Retrieve:" + "\n".join(titles))
 
         controller.update(next_states)
         paths = controller.next()
