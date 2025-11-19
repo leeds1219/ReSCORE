@@ -96,62 +96,59 @@ def run_pipeline(user_input):
 
     logs = []
 
-    # QuestionState 생성
+    DOCS_PER_LINE = 5
+
+    def log_docs(hop, docs):
+        titles = [doc.metadata['title'] for doc in docs]
+        line = " | ".join(titles[:DOCS_PER_LINE])
+        if len(titles) > DOCS_PER_LINE:
+            line += " | ..."
+        return f"--- {hop}-hop Retrieved Documents ---\n{line}"
+
     start_state = QuestionState(question_id="1", question=user_input)
 
-    # ---------------------- HOP LOOP ----------------------
-    # ---- 1-hop (special case) ----
+    # 1-hop
     controller.update([start_state])
     paths = controller.next()
 
-    # Retrieve
     next_states = controller.pipeline[0](paths)
-    titles = [doc.metadata['title'] for doc in next_states[0].documents[:8]]
-    logs.append("1-hop Retrieve:" + "\n".join(titles))
+    logs.append(log_docs(1, next_states[0].documents))
+    # logs.append("...")
 
     controller.update(next_states)
     paths = controller.next()
 
-    # Answer
     next_states = controller.pipeline[1](paths)
     logs.append(f"1-hop Answer: {next_states[0].answer}")
 
-    # TODO: We found that the constraint of at least 2-hops benefits.
     if next_states[0].answer != "Unknown":
-        logs.append("1-hop answer obtained, proceeding with an additional hop for verification.")
+        logs.append("1-hop answer obtained, proceeding with verification hop.")
         next_states[0].answer = "Unknown"
-        # return "\n\n".join(logs)
-    
+
     controller.update(next_states)
     paths = controller.next()
 
-    # Check
     next_states = controller.pipeline[2](paths)
     controller.update(next_states)
     paths = controller.next()
 
-    # Think
     next_states = controller.pipeline[3](paths)
     logs.append(f"1-hop Thought: {next_states[0].thought}")
 
     controller.update(next_states)
     paths = controller.next()
 
-    # ---- Loop for hop >= 2 ----
     MAX_HOPS = 6
     hop = 2
 
     while hop <= MAX_HOPS:
-        # Retrieve
         next_states = controller.pipeline[0](paths)
-        # TODO: we use a buffer of 32 to remove redundant documents, this is not implemented in this demo
-        titles = [doc.metadata['title'] for doc in next_states[0].documents[:8]]
-        logs.append(f"{hop}-hop Retrieve:" + "\n".join(titles))
+        logs.append(log_docs(hop, next_states[0].documents))
+        # logs.append("...")
 
         controller.update(next_states)
         paths = controller.next()
 
-        # Answer
         next_states = controller.pipeline[1](paths)
         logs.append(f"{hop}-hop Answer: {next_states[0].answer}")
 
@@ -161,12 +158,10 @@ def run_pipeline(user_input):
         controller.update(next_states)
         paths = controller.next()
 
-        # Check
         next_states = controller.pipeline[2](paths)
         controller.update(next_states)
         paths = controller.next()
 
-        # Think
         next_states = controller.pipeline[3](paths)
         logs.append(f"{hop}-hop Thought: {next_states[0].thought}")
 
@@ -175,12 +170,10 @@ def run_pipeline(user_input):
 
         hop += 1
 
-    # ------------------------------------------------------------
     return "\n\n".join(logs)
 
 
-# ====================== Gradio UI ==============================
-
+import gradio as gr
 
 def demo_ui():
     with gr.Blocks() as demo:
@@ -196,7 +189,6 @@ def demo_ui():
 
         with gr.Column(elem_id="main-area"):
 
-            # 질문 입력
             question_box = gr.Textbox(
                 label="Question",
                 value="Where was the author of Hannibal and Scipio educated at?",
@@ -204,17 +196,14 @@ def demo_ui():
                 elem_id="question-box"
             )
 
-            # 실행 버튼
             run_btn = gr.Button("Run Pipeline", variant="primary")
 
-            # 출력 로그
             output_box = gr.Textbox(
                 label="Multi-hop reasoning process",
                 lines=40,
                 elem_id="output-box"
             )
 
-        # 버튼 클릭 연결
         run_btn.click(
             fn=run_pipeline,
             inputs=question_box,
@@ -226,7 +215,7 @@ def demo_ui():
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
             <style>
                 #main-area {
-                    max-width: 850px;
+                    max-width: 1200px;
                     margin: 0 auto;
                 }
 
@@ -268,7 +257,6 @@ def demo_ui():
         )
 
     return demo
-
 
 if __name__ == "__main__":
     demo = demo_ui()
