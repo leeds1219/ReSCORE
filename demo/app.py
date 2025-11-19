@@ -181,44 +181,90 @@ def run_pipeline(user_input):
 
 # ====================== Gradio UI ==============================
 
+
 def demo_ui():
     with gr.Blocks() as demo:
 
-        gr.Markdown("# Multi-Hop Retrieval Pipeline Demo")
-
-        question_box = gr.Textbox(
-            label="Question",
-            value="Where was the author of Hannibal and Scipio educated at?",
-            lines=2,
+        gr.Markdown(
+            """
+            <h1 style="text-align:center; margin-bottom: 5px;">
+                Multi-hop Retrieval Pipeline Demo
+            </h1>
+            <hr style="margin-top: 0; margin-bottom: 25px;">
+            """
         )
 
-        """
-        Examples)
+        with gr.Column(elem_id="main-area"):
 
-        Which company owns the manufacturer of Learjet 60?
+            # 질문 입력
+            question_box = gr.Textbox(
+                label="Question",
+                value="Where was the author of Hannibal and Scipio educated at?",
+                lines=2,
+                elem_id="question-box"
+            )
 
-        In which county is Southern Maryland Electric Cooperative headquartered?
+            # 실행 버튼
+            run_btn = gr.Button("Run Pipeline", variant="primary")
 
-        What is another notable work made by the author of Miss Sara Sampson?
+            # 출력 로그
+            output_box = gr.Textbox(
+                label="Multi-hop reasoning process",
+                lines=40,
+                elem_id="output-box"
+            )
 
-        What is the seat of the county where Van Hook Township is located?
-
-        The Unwinding author volunteered for which organisation?
-
-        ...
-        """
-        
-        output_box = gr.Textbox(
-            label="Logs",
-            lines=40,
-        )
-
-        run_btn = gr.Button("Run Pipeline")
-
+        # 버튼 클릭 연결
         run_btn.click(
             fn=run_pipeline,
             inputs=question_box,
             outputs=output_box,
+        )
+
+        gr.HTML(
+            """
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+            <style>
+                #main-area {
+                    max-width: 850px;
+                    margin: 0 auto;
+                }
+
+                #question-box textarea {
+                    font-family: 'Inter', sans-serif !important;
+                    font-size: 16px !important;
+                }
+
+                #output-box textarea {
+                    font-family: monospace !important;
+                    font-size: 14px !important;
+                    line-height: 1.4 !important;
+                }
+
+                .gr-button {
+                    font-family: 'Inter', sans-serif !important;
+                    background-color: #007bff !important;
+                    color: white !important;
+                    border-radius: 8px !important;
+                    padding: 10px 20px !important;
+                    font-size: 16px !important;
+                    margin: 10px 0 20px 0 !important;
+                }
+
+                #question-box, #output-box {
+                    border: 1px solid #ddd !important;
+                    border-radius: 8px !important;
+                    padding: 10px !important;
+                    box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+                }
+
+                hr {
+                    border: none;
+                    height: 1px;
+                    background: #ddd;
+                }
+            </style>
+            """
         )
 
     return demo
