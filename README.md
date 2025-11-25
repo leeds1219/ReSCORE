@@ -57,9 +57,7 @@ The Unwinding author volunteered for which organisation?
 ```
 
 ## :fire:TODO
-- [x] Clean Code
-- [ ] Check Typo
-- [x] Build Project Page
+- [ ] Check Typo ...
 
 ## Installation
 ```
