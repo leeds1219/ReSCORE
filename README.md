@@ -26,6 +26,10 @@
 </p>
 
 ## Introduction
+Directly mapping complex problems ($x$) to their final solutions ($y$) poses a significant challenge, often requiring an intermediate reasoning step—a latent variable ($z$)—to bridge the gap. However, explicit supervision for these intermediate thoughts is rarely available. 
+Instead of relying on ground-truth reasoning labels, our approach leverages the model's confidence in the final answer ($y$) as an intrinsic reward signal.   
+Through this approach, the model learns to autonomously generate the most effective intermediate steps ($z$) that maximize downstream solvability. 
+           
 
 This is our official implementation of ReSCORE: Label-free Iterative Retriever Training for Multi-hop Question Answering with Relevance-Consistency Supervision! 
 
